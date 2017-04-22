@@ -7,7 +7,6 @@ import Form from './views/nav1/Form.vue'
 import user from './views/nav1/user.vue'
 import Page4 from './views/nav2/Page4.vue'
 import Page5 from './views/nav2/Page5.vue'
-import Page6 from './views/nav3/Page6.vue'
 import echarts from './views/charts/echarts.vue'
 // 管理员
 import admin from './views/sys/admin.vue'
@@ -41,7 +40,7 @@ let routes = [
         name: '管理员',
         iconCls: 'fa fa-user-circle-o',
         children: [
-            { path: '/sys/admin', component: admin, name: '管理员列表' },
+            { path: '/admin', component: admin, name: '管理员列表' },
         ]
     },
     {
